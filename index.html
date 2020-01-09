@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="css/basic.css"/>
+    <link rel="stylesheet" type="text/css" href="css/admin.css"/>
+    <link rel="stylesheet" type="text/css" href="css/demo.css"/>
+    <link rel="stylesheet" type="text/css" href="css/hmstyle.css"/>
+</head>
+
+<body onload="checkuser()">
+<div class="hmtop">
+    <!--顶部导航条 -->
+    <div class="mr-container header">
+        <!-- 跳转登录/注册页面 -->
+        <ul class="message-l">
+            <div class="topMessage">
+                <div class="menu-hd">
+                    <a href="login.html" target="_top" class="h" style="color: red">亲，请登录</a>
+                    <a href="register.html" target="_top" style="color: red">免费注册</a>
+                </div>
+            </div>
+        </ul>
+        <!-- 跳转手机端、首页、个人中心、购物车、收藏 -->
+        <ul class="message-r">
+            <div class="topMessage home">
+                <div class="menu-hd"><a href="mobile.html" style="color:red">手机端</a></div>
+            </div>
+            <div class="topMessage home">
+                <div class="menu-hd"><a href="index.html" target="_top" class="h" style="color:red">商城首页</a></div>
+            </div>
+            <div class="topMessage my-shangcheng">
+                <div class="menu-hd MyShangcheng"><a href="#" target="_top"><i class="mr-icon-user mr-icon-fw"></i>个人中心</a>
+                </div>
+            </div>
+            <div class="topMessage mini-cart">
+                <div class="menu-hd"><a id="mc-menu-hd" href="shopCart.html" target="_top"><i
+                        class="mr-icon-shopping-cart  mr-icon-fw" ></i><span style="color:red">购物车</span><strong id="J_MiniCartNum"
+                                                                                              class="h">0</strong></a>
+                </div>
+            </div>
+            <div class="topMessage favorite">
+                <div class="menu-hd"><a href="#" target="_top"><i class="mr-icon-heart mr-icon-fw"></i><span>收藏夹</span></a>
+                </div>
+        </ul>
+    </div>
+
+    <!--悬浮搜索框-->
+    <div class="nav white">
+        <div class="logo"><a href="index.html"><img src="images/huawei/u=1941787114,1002821480&fm=26&gp=0.jpg"/></div></a>
+        <div class="logoBig">
+            <li><img src="images/huawei/u=1941787114,1002821480&fm=26&gp=0.jpg"/ style="width: 100px;"></li>
+        </div>
+        <div class="search-bar pr">
+            <a name="index_none_header_sysc" href="#"></a>
+            <form>
+                <input id="searchInput" name="index_none_header_sysc" type="text" placeholder="搜索" autocomplete="off">
+                <input id="ai-topsearch" class="submit mr-btn" value="搜索" index="1" type="submit">
+            </form>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="banner">
+    <style>
+        #box {
+            position: relative;
+            width: 100%;
+            height: 455px;
+            background: #fff;
+            border-radius: 5px;
+        }
+
+        #box .list {
+            position: relative;
+            height: 455px;
+        }
+        @media only screen and (min-width: 1450px){
+            #box .list li {
+                width: 50%;
+                height: 50%;
+                margin: auto;
+                margin-top: 0px;
+                position: absolute;
+                top: 0; left: 0; bottom: 0; right: 0;
+            }
+            #box .count {
+                position: absolute;
+                left: 900px;
+                bottom: 5px;
+            }
+
+        }
+
+        @media  screen and (min-width: 800px) and (max-width: 1450px){
+            #box .list li {
+                width: 50%;
+                height: 50%;
+                margin: auto;
+                margin-top: 0px;
+                position: absolute;
+                top: 0; left: -100px; bottom: 0; right: 0;
+            }
+            #box .list li img{
+                width: 120%;
+            }
+            #box .count {
+                position: absolute;
+                left: 700px;
+                bottom: 5px;
+            }
+        }
+
+        @media  screen and (max-width: 400px){
+            #box{
+                display: none;
+            }
+
+        }
+
+        #box .list li.current {
+            opacity: 1;
+        }
+
+        #box .count li {
+            color: #fff;
+            float: left;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            margin-right: 5px;
+            overflow: hidden;
+            background: #6D6B6A;
+            opacity: 0.7;
+            border-radius: 20px;
+            padding-left:5px;
+        }
+
+        #box .count li.current {
+            color: #fff;
+            opacity: 0.7;
+            font-weight: 700;
+            background: #f60
+        }
+
+    </style>
+    <!--轮播 -->
+    <div class="mr-slider mr-slider-default scoll" data-mr-flexslider id="demo-slider-0">
+        <div id="box">
+            <ul id="imagesUI" class="list">
+                <li class="current" style="opacity: 1;"><img src="images/huawei/201812261142226829463.jpg"></li>
+                <li style="opacity: 0;"><img src="images/huawei/201812261142227707424.jpg" ></li>
+                <li style="opacity: 0;"><img src="images/huawei/201812261142236416708.jpg" ></li>
+                <li style="opacity: 0;"><img src="images/huawei/201812261142239907575.jpg" ></li>
+            </ul>
+            <ul id="btnUI" class="count">
+                <li class="current">1</li>
+                <li class="">2</li>
+                <li class="">3</li>
+                <li class="">4</li>
+            </ul>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<!-- 轮播图功能 -->
+<script>
+    //alert(window.innerWidth);
+    var box=document.getElementById('box');
+    var imagesUI=document.getElementById('imagesUI');
+    var btnUI=document.getElementById('btnUI');
+    var imgs=imagesUI.getElementsByTagName('li');
+    var btn=btnUI.getElementsByTagName('li');
+    var i=index=0; //中间量，统一声明；
+    var play=null;
+    console.log(box,imgs,imgs,btn);//获取正确
+
+// 设计思路
+// 自动轮播以及手动轮播
+// 自动轮播：
+    // 1、函数周期执行setInterval
+    // 2、鼠标经过时停止、移除时继续clearInterval
+    // 3、轮播图图片以及序号一一对应
+// 手动轮播:
+    // 1、鼠标经过哪个序号就显示哪张图片
+
+
+
+
+
+    autoPlay();//马上调用，我试过用window.onload调用这个方法，但是调用之后影响到了其他方法，使用autoPlay所以只能这样调用了
+
+    //div的鼠标移入移出事件
+    box.onmouseover=function(){
+        clearInterval(play);
+    };
+    box.onmouseout=function(){
+        autoPlay();
+    };
+    //自动轮播方法
+    function autoPlay(){
+        play=setInterval(function(){ //定时器处理
+            index++;
+            index>=imgs.length&&(index=0);
+            show(index);
+        },3000)
+    }
+
+    //图片切换方法
+    function show(a){
+        for(i=0;i<btn.length;i++ ){
+            btn[i].className='';    //显示当前设置按钮。
+            btn[a].className='current';
+        }
+        for(i=0;i<imgs.length;i++){ //把图片的效果设置和按钮相同
+            imgs[i].style.opacity=0;
+            imgs[a].style.opacity=1;
+        }
+    }
+    //切换按钮功能
+    for(i=0;i<btn.length;i++){
+        btn[i].index=i;
+        btn[i].onmouseover=function(){
+            show(this.index);
+            clearInterval(play);
+        }
+    }
+
+</script>
+
+<div class="shopNav">
+<div class="slideall">
+
+    <!--顶部导航 -->
+<div class="long-title"><span class="all-goods">全部分类</span></div>
+<div class="nav-cont">
+    <ul>
+        <li class="index"><a href="#">首页</a></li>
+        <li class="qc"><a href="#">企业购特惠</a></li>
+        <li class="qc"><a href="#">会员领券</a></li>
+        <li class="qc"><a href="#">以旧换新</a></li>
+        <li class="qc last"><a href="#">全球购</a></li>
+    </ul>
+    <div class="nav-extra">
+        <i class="mr-icon-user-secret mr-icon-md nav-user"></i><b></b>我的福利
+        <i class="mr-icon-angle-right" style="padding-left: 10px;"></i>
+    </div>
+</div>
+
+<!--侧边导航 -->
+<div id="nav" class="navfull">
+<div class="area clearfix">
+<div class="category-content" id="guide_2">
+
+<div class="category">
+<ul class="category-list" id="js_climit_li">
+
+<li class="appliance js_toggle relative " onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"  >
+    <div class="category-info">
+        <h3 class="category-name b-category-name"><i><img src="images/cake.png"></i><a class="ml-22" title="手机">手机</a></h3>
+        <em>&gt;</em></div>
+    <div class="menu-item menu-in top" >
+        <div class="area-in">
+            <div class="area-bg">
+                <div class="menu-srot">
+                    <div class="sort-side">
+                        <dl class="dl-sort">
+                            <dt><span >荣耀</span></dt>
+                            <dd><a  href="shopInfo.html"><span>荣耀8</span></a></dd>
+                            <dd><a  href="shopInfo.html"><span>荣耀9</span></a></dd>
+                            <dd><a  href="shopInfo.html"><span>荣耀10</span></a></dd>
+                        </dl>
+                        <dl class="dl-sort">
+                            <dt><span >HUAWEI nova系列</span></dt>
+                            <dd><a  href="#"><span>HUAWEI nova 8</span></a></dd>
+                            <dd><a  href="#"><span>HUAWEI nova 9</span></a></dd>
+                        </dl>
+
+                    </div>
+                    <div class="brand-side">
+                        <dl class="dl-sort">
+                            <dt><span>HUAWEI Mate系列</span></dt>
+                            <dd><a rel="nofollow" title="HUAWEI Mate 10" target="_blank" href="#" rel="nofollow"><span
+                                    class="red">HUAWEI Mate 10</span></a></dd>
+                            <dd><a rel="nofollow" title="HUAWEI Mate 20" target="_blank" href="#"
+                                   rel="nofollow"><span>HUAWEI Mate 20</span></a></dd>
+                            <dd><a rel="nofollow" title="HUAWEI Mate 30" target="_blank" href="#" rel="nofollow"><span
+                                    class="red">HUAWEI Mate 30</span></a></dd>
+
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <b class="arrow"></b>
+</li>
+<li class="appliance js_toggle relative"  onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" >
+    <div class="category-info">
+        <h3 class="category-name b-category-name"><i><img src="images/cookies.png"></i><a class="ml-22"
+                                                                                          title="笔记本 & 平板">笔记本 & 平板</a>
+        </h3>
+        <em>&gt;</em></div>
+    <div class="menu-item menu-in top">
+        <div class="area-in">
+            <div class="area-bg">
+                <div class="menu-srot">
+                    <div class="sort-side">
+                        <dl class="dl-sort">
+                            <dt><span title="平板电脑">平板电脑</span></dt>
+                            <dd><a  href="#"><span>M5</span></a></dd>
+                            <dd><a  href="#"><span>M6</span></a></dd>
+
+
+                        </dl>
+                        <dl class="dl-sort">
+                            <dt><span title="笔记本电脑">笔记本电脑</span></dt>
+                            <dd><a  href="#"><span>HUAWEI MateBook X</span></a></dd>
+                            <dd><a  href="#"><span>HUAWEI MateBook E</span></a></dd>
+                            <dd><a  href="#"><span>HUAWEI MateBook 13 锐龙版 集显 第三方Linux系统</span></a></dd>
+                        </dl>
+                        <dl class="dl-sort">
+                            <dt><span title="笔记本配件">笔记本配件</span></dt>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <b class="arrow"></b>
+</li>
+<li class="appliance js_toggle relative"  onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" >
+        <div class="category-info">
+            <h3 class="category-name b-category-name"><i><img src="images/cookies.png"></i><a class="ml-22"
+                                                                                              title="笔记本 & 平板">笔记本 & 平板</a>
+            </h3>
+            <em>&gt;</em></div>
+        <div class="menu-item menu-in top">
+            <div class="area-in">
+                <div class="area-bg">
+                    <div class="menu-srot">
+                        <div class="sort-side">
+                            <dl class="dl-sort">
+                                <dt><span title="平板电脑">平板电脑</span></dt>
+                                <dd><a  href="#"><span>M5</span></a></dd>
+                                <dd><a  href="#"><span>M6</span></a></dd>
+    
+    
+                            </dl>
+                            <dl class="dl-sort">
+                                <dt><span title="笔记本电脑">笔记本电脑</span></dt>
+                                <dd><a  href="#"><span>HUAWEI MateBook X</span></a></dd>
+                                <dd><a  href="#"><span>HUAWEI MateBook E</span></a></dd>
+                                <dd><a  href="#"><span>HUAWEI MateBook 13 锐龙版 集显 第三方Linux系统</span></a></dd>
+                            </dl>
+                            <dl class="dl-sort">
+                                <dt><span title="笔记本配件">笔记本配件</span></dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <b class="arrow"></b>
+    </li>
+<li class="appliance js_toggle relative"  onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" >
+        <div class="category-info">
+            <h3 class="category-name b-category-name"><i><img src="images/cookies.png"></i><a class="ml-22"
+                                                                                                title="笔记本 & 平板">笔记本 & 平板</a>
+            </h3>
+            <em>&gt;</em></div>
+        <div class="menu-item menu-in top">
+            <div class="area-in">
+                <div class="area-bg">
+                    <div class="menu-srot">
+                        <div class="sort-side">
+                            <dl class="dl-sort">
+                                <dt><span title="平板电脑">平板电脑</span></dt>
+                                <dd><a  href="#"><span>M5</span></a></dd>
+                                <dd><a  href="#"><span>M6</span></a></dd>
+    
+    
+                            </dl>
+                            <dl class="dl-sort">
+                                <dt><span title="笔记本电脑">笔记本电脑</span></dt>
+                                <dd><a  href="#"><span>HUAWEI MateBook X</span></a></dd>
+                                <dd><a  href="#"><span>HUAWEI MateBook E</span></a></dd>
+                                <dd><a  href="#"><span>HUAWEI MateBook 13 锐龙版 集显 第三方Linux系统</span></a></dd>
+                            </dl>
+                            <dl class="dl-sort">
+                                <dt><span title="笔记本配件">笔记本配件</span></dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <b class="arrow"></b>
+    </li>
+<li class="appliance js_toggle relative"  onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" >
+        <div class="category-info">
+            <h3 class="category-name b-category-name"><i><img src="images/cookies.png"></i><a class="ml-22"
+                                                                                                title="笔记本 & 平板">笔记本 & 平板</a>
+            </h3>
+            <em>&gt;</em></div>
+        <div class="menu-item menu-in top">
+            <div class="area-in">
+                <div class="area-bg">
+                    <div class="menu-srot">
+                        <div class="sort-side">
+                            <dl class="dl-sort">
+                                <dt><span title="平板电脑">平板电脑</span></dt>
+                                <dd><a  href="#"><span>M5</span></a></dd>
+                                <dd><a  href="#"><span>M6</span></a></dd>
+    
+    
+                            </dl>
+                            <dl class="dl-sort">
+                                <dt><span title="笔记本电脑">笔记本电脑</span></dt>
+                                <dd><a  href="#"><span>HUAWEI MateBook X</span></a></dd>
+                                <dd><a  href="#"><span>HUAWEI MateBook E</span></a></dd>
+                                <dd><a  href="#"><span>HUAWEI MateBook 13 锐龙版 集显 第三方Linux系统</span></a></dd>
+                            </dl>
+                            <dl class="dl-sort">
+                                <dt><span title="笔记本配件">笔记本配件</span></dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <b class="arrow"></b>
+    </li>
+<li class="appliance js_toggle relative"  onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" >
+        <div class="category-info">
+            <h3 class="category-name b-category-name"><i><img src="images/cookies.png"></i><a class="ml-22"
+                                                                                                title="笔记本 & 平板">笔记本 & 平板</a>
+            </h3>
+            <em>&gt;</em></div>
+        <div class="menu-item menu-in top">
+            <div class="area-in">
+                <div class="area-bg">
+                    <div class="menu-srot">
+                        <div class="sort-side">
+                            <dl class="dl-sort">
+                                <dt><span title="平板电脑">平板电脑</span></dt>
+                                <dd><a  href="#"><span>M5</span></a></dd>
+                                <dd><a  href="#"><span>M6</span></a></dd>
+    
+    
+                            </dl>
+                            <dl class="dl-sort">
+                                <dt><span title="笔记本电脑">笔记本电脑</span></dt>
+                                <dd><a  href="#"><span>HUAWEI MateBook X</span></a></dd>
+                                <dd><a  href="#"><span>HUAWEI MateBook E</span></a></dd>
+                                <dd><a  href="#"><span>HUAWEI MateBook 13 锐龙版 集显 第三方Linux系统</span></a></dd>
+                            </dl>
+                            <dl class="dl-sort">
+                                <dt><span title="笔记本配件">笔记本配件</span></dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <b class="arrow"></b>
+    </li>
+<li class="appliance js_toggle relative"  onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" >
+        <div class="category-info">
+            <h3 class="category-name b-category-name"><i><img src="images/cookies.png"></i><a class="ml-22"
+                                                                                                title="笔记本 & 平板">笔记本 & 平板</a>
+            </h3>
+            <em>&gt;</em></div>
+        <div class="menu-item menu-in top">
+            <div class="area-in">
+                <div class="area-bg">
+                    <div class="menu-srot">
+                        <div class="sort-side">
+                            <dl class="dl-sort">
+                                <dt><span title="平板电脑">平板电脑</span></dt>
+                                <dd><a  href="#"><span>M5</span></a></dd>
+                                <dd><a  href="#"><span>M6</span></a></dd>
+    
+    
+                            </dl>
+                            <dl class="dl-sort">
+                                <dt><span title="笔记本电脑">笔记本电脑</span></dt>
+                                <dd><a  href="#"><span>HUAWEI MateBook X</span></a></dd>
+                                <dd><a  href="#"><span>HUAWEI MateBook E</span></a></dd>
+                                <dd><a  href="#"><span>HUAWEI MateBook 13 锐龙版 集显 第三方Linux系统</span></a></dd>
+                            </dl>
+                            <dl class="dl-sort">
+                                <dt><span title="笔记本配件">笔记本配件</span></dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <b class="arrow"></b>
+    </li>
+<li class="appliance js_toggle relative"  onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" >
+        <div class="category-info">
+            <h3 class="category-name b-category-name"><i><img src="images/cookies.png"></i><a class="ml-22"
+                                                                                                title="笔记本 & 平板">笔记本 & 平板</a>
+            </h3>
+            <em>&gt;</em></div>
+        <div class="menu-item menu-in top">
+            <div class="area-in">
+                <div class="area-bg">
+                    <div class="menu-srot">
+                        <div class="sort-side">
+                            <dl class="dl-sort">
+                                <dt><span title="平板电脑">平板电脑</span></dt>
+                                <dd><a  href="#"><span>M5</span></a></dd>
+                                <dd><a  href="#"><span>M6</span></a></dd>
+    
+    
+                            </dl>
+                            <dl class="dl-sort">
+                                <dt><span title="笔记本电脑">笔记本电脑</span></dt>
+                                <dd><a  href="#"><span>HUAWEI MateBook X</span></a></dd>
+                                <dd><a  href="#"><span>HUAWEI MateBook E</span></a></dd>
+                                <dd><a  href="#"><span>HUAWEI MateBook 13 锐龙版 集显 第三方Linux系统</span></a></dd>
+                            </dl>
+                            <dl class="dl-sort">
+                                <dt><span title="笔记本配件">笔记本配件</span></dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <b class="arrow"></b>
+    </li>
+<li class="appliance js_toggle relative"  onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" >
+        <div class="category-info">
+            <h3 class="category-name b-category-name"><i><img src="images/cookies.png"></i><a class="ml-22"
+                                                                                                title="笔记本 & 平板">笔记本 & 平板</a>
+            </h3>
+            <em>&gt;</em></div>
+        <div class="menu-item menu-in top">
+            <div class="area-in">
+                <div class="area-bg">
+                    <div class="menu-srot">
+                        <div class="sort-side">
+                            <dl class="dl-sort">
+                                <dt><span title="平板电脑">平板电脑</span></dt>
+                                <dd><a  href="#"><span>M5</span></a></dd>
+                                <dd><a  href="#"><span>M6</span></a></dd>
+    
+    
+                            </dl>
+                            <dl class="dl-sort">
+                                <dt><span title="笔记本电脑">笔记本电脑</span></dt>
+                                <dd><a  href="#"><span>HUAWEI MateBook X</span></a></dd>
+                                <dd><a  href="#"><span>HUAWEI MateBook E</span></a></dd>
+                                <dd><a  href="#"><span>HUAWEI MateBook 13 锐龙版 集显 第三方Linux系统</span></a></dd>
+                            </dl>
+                            <dl class="dl-sort">
+                                <dt><span title="笔记本配件">笔记本配件</span></dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <b class="arrow"></b>
+    </li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+
+<!--小导航 -->
+<div class="mr-g mr-g-fixed smallnav">
+    <div class="mr-u-sm-3">
+        <a href="shopList.html"><img src="images/navsmall.jpg"/>
+            <div class="title">商品分类</div>
+        </a>
+    </div>
+    <div class="mr-u-sm-3">
+        <a href="shopList.html"><img src="images/huismall.jpg"/>
+            <div class="title">大聚惠</div>
+        </a>
+    </div>
+    <div class="mr-u-sm-3">
+        <a href="shopList.html"><img src="images/mansmall.jpg"/>
+
+            <div class="title">个人中心</div>
+        </a>
+    </div>
+    <div class="mr-u-sm-3">
+        <a href="shopList.html"><img src="images/moneysmall.jpg"/>
+            <div class="title">投资理财</div>
+        </a>
+    </div>
+</div>
+
+<!--走马灯 -->
+
+<div class="marqueen">
+    <span class="marqueen-title">商城头条</span>
+    <div class="demo">
+        <ul>
+            <li class="title-first"><a  href="shopInfo.html">
+                <img src="images/TJ2.jpg"></img>
+                <span>[特惠]</span>商城爆品1分秒
+            </a></li>
+            <li class="title-first"><a target="_blank" href="#">
+                <span>[公告]</span>商城与长春市签署战略合作协议
+                <img src="images/TJ.jpg"></img>
+                <p>XXXXXXXXXXXXXXXXXX</p>
+            </a></li>
+
+            <div class="mod-vip">
+                <div class="m-baseinfo">
+                    <a href="../person/index.html">
+                        <img src="images/getAvatar.do.jpg">
+                    </a>
+                    <em>
+                        Hi,<span class="s-name">小叮当</span>
+                        <a href="#"><p>点击更多优惠活动</p></a>
+                    </em>
+                </div>
+                <div class="member-logout">
+                    <a class="mr-btn-warning btn" href="login.html">登录</a>
+                    <a class="mr-btn-warning btn" href="register.html">注册</a>
+                </div>
+                <div class="member-login">
+                    <a href="#"><strong>0</strong>待收货</a>
+                    <a href="#"><strong>0</strong>待发货</a>
+                    <a href="#"><strong>0</strong>待付款</a>
+                    <a href="#"><strong>0</strong>待评价</a>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <li><a target="_blank" href="#"><span>[特惠]</span>洋河年末大促，低至两件五折</a></li>
+            <li><a target="_blank" href="#"><span>[公告]</span>华北、华中部分地区配送延迟</a></li>
+            <li><a target="_blank" href="#"><span>[特惠]</span>家电狂欢千亿礼券 买1送1！</a></li>
+
+        </ul>
+        <div class="advTip"><img src="images/advTip.jpg"/></div>
+    </div>
+</div>
+<div class="clear"></div>
+</div>
+
+</div>
+<div class="shopMainbg">
+<div class="shopMain" id="shopmain">
+
+<!--今日推荐 -->
+<div class="mr-g mr-g-fixed recommendation">
+    <div class="clock mr-u-sm-3">
+        <img src="images/2016.png "></img>
+
+        <p>今日<br>推荐</p>
+    </div>
+    <div class="mr-u-sm-4 mr-u-lg-3 ">
+        <div class="info ">
+            <h3>真的有鱼</h3>
+            <h4>开年福利篇</h4>
+        </div>
+        <div class="recommendationMain one">
+            <a href="shopList.html"><img src="images/tj.png "></a>
+        </div>
+    </div>
+    <div class="mr-u-sm-4 mr-u-lg-3 ">
+        <div class="info ">
+            <h3>囤货过冬</h3>
+            <h4>让爱早回家</h4>
+        </div>
+        <div class="recommendationMain two">
+            <a href="shopList.html"><img src="images/tj1.png "></a>
+        </div>
+    </div>
+    <div class="mr-u-sm-4 mr-u-lg-3 ">
+        <div class="info ">
+            <h3>浪漫情人节</h3>
+            <h4>甜甜蜜蜜</h4>
+        </div>
+        <div class="recommendationMain three ">
+            <a href="shopList.html"><img src="images/tj2.png "></a>
+        </div>
+    </div>
+
+</div>
+<div class="clear "></div>
+<!--热门活动 -->
+<div class="mr-container activity ">
+    <div class="shopTitle ">
+        <h4>活动</h4>
+        <h3>每期活动 优惠享不停 </h3>
+							<span class="more ">
+                               <a href="shopInfo.html">全部活动<i class="mr-icon-angle-right" style="padding-left:10px ;"></i></a>
+                            </span>
+    </div>
+
+    <div class="mr-g mr-g-fixed ">
+        <div class="mr-u-sm-3 ">
+            <div class="icon-sale one "></div>
+            <h4>秒杀</h4>
+
+            <div class="activityMain ">
+                <a href="shopInfo.html"><img src="images/huawei/428_428_EE1DF3232B44F1DC231925E8C9662A168CAD87EED09AF596mp.png "/></a>
+            </div>
+            <div class="info ">
+                <h3><a href="shopInfo.html">春节送礼优选</a></h3>
+            </div>
+        </div>
+
+        <div class="mr-u-sm-3 ">
+            <div class="icon-sale two "></div>
+            <h4>特惠</h4>
+
+            <div class="activityMain ">
+                <a href="shopInfo.html"><img src="images/huawei/428_428_9FA695518CFC23552650A7145BD7A40DC1A9F088C4BA6A07mp.png "></a>
+            </div>
+            <div class="info ">
+                <a href="shopInfo.html"><h3>春节送礼优选</h3></a>
+            </div>
+        </div>
+
+        <div class="mr-u-sm-3 ">
+            <div class="icon-sale three "></div>
+            <h4>团购</h4>
+            <div class="activityMain ">
+                <a href="shopInfo.html"><img src="images/huawei/3.png"></a>
+            </div>
+            <div class="info ">
+                <a href="shopInfo.html"><h3>春节送礼优选</h3></a>
+            </div>
+        </div>
+
+        <div class="mr-u-sm-3 last ">
+            <div class="icon-sale "></div>
+            <h4>超值</h4>
+            <div class="activityMain ">
+                <img src="images/huawei/428_428_21A7667FA769CBD35B1B4977DF61F62E011DB64E3FDCA71Bmp.png"></img>
+            </div>
+            <div class="info ">
+                <h3>春节送礼优选</h3>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="clear "></div>
+
+<!--手机-->
+<div id="f1">
+    <div class="mr-container ">
+        <div class="shopTitle ">
+            <h4>手机</h4>
+
+            <h3>手机风暴</h3>
+							<span class="more ">
+                                 <a href="./shopList.html?page=1">更多手机<i class="mr-icon-angle-right" style="padding-left:10px ;"></i></a>
+                            </span>
+        </div>
+    </div>
+
+    <div class="mr-g mr-g-fixed floodFive ">
+
+        <div class="mr-u-sm-5 mr-u-md-3 text-one list">
+            <div class="word">
+                <a class="outer" href="#"><span class="inner"><b class="text">十核</b></span></a>
+                <a class="outer" href="#"><span class="inner"><b class="text">八核</b></span></a>
+                <a class="outer" href="#"><span class="inner"><b class="text">双四核</b></span></a>
+                <a class="outer" href="#"><span class="inner"><b class="text">四核</b></span></a>
+                <a class="outer" href="#"><span class="inner"><b class="text">双核</b></span></a>
+                <a class="outer" href="#"><span class="inner"><b class="text">单核</b></span></a>
+            </div>
+            <a href="# ">
+                <img src="images/huawei/428_428_1541571374644mp.png " width="100px" height="170px"/>
+
+                <div class="outer-con ">
+                    <div class="title ">
+                        免费领30天碎屏脸
+                    </div>
+                    <div class="sub-title ">
+                        颜值之星，双摄之星
+                    </div>
+                </div>
+            </a>
+
+            <div class="triangle-topright"></div>
+        </div>
+        <div class="mr-u-sm-7 mr-u-md-5 mr-u-lg-2 text-two">
+            <div class="outer-con ">
+                <div class="title ">
+                    荣耀8
+                </div>
+                <div class="sub-title ">
+                    ¥5888.00
+                </div>
+                <i class="mr-icon-shopping-basket mr-icon-md  seprate"></i>
+            </div>
+            <a href="shopInfo.html "><img src="images/huawei/428_428_EE1DF3232B44F1DC231925E8C9662A168CAD87EED09AF596mp.png "/></a>
+        </div>
+
+        <div class="mr-u-md-2 mr-u-lg-2 text-three sug">
+            <div class="outer-con ">
+                <div class="title ">
+                        荣耀9
+                </div>
+                <div class="sub-title ">
+                    ¥2499.00
+                </div>
+                <i class="mr-icon-shopping-basket mr-icon-md  seprate"></i>
+            </div>
+            <a href="shopInfo.html"><img src="images/huawei/428_428_9FA695518CFC23552650A7145BD7A40DC1A9F088C4BA6A07mp.png"/></a>
+        </div>
+        <div class="mr-u-md-2 mr-u-lg-2 text-three big">
+            <div class="outer-con ">
+                <div class="title ">
+                        荣耀10
+                </div>
+                <div class="sub-title ">
+                    ¥1199.00
+                </div>
+                <i class="mr-icon-shopping-basket mr-icon-md  seprate"></i>
+            </div>
+            <a href="shopInfo.html "><img src="images/huawei/2.png"/></a>
+        </div>
+        <div class="mr-u-sm-4 mr-u-md-5 mr-u-lg-4 text-five">
+            <div class="outer-con ">
+                <div class="title ">
+                        荣耀11
+                </div>
+                <div class="sub-title ">
+                    ¥2999.00
+                </div>
+                <i class="mr-icon-shopping-basket mr-icon-md  seprate"></i>
+            </div>
+            <a href="shopInfo.html "><img src="images/huawei/428_428_21A7667FA769CBD35B1B4977DF61F62E011DB64E3FDCA71Bmp.png"/></a>
+        </div>
+        <div class="mr-u-sm-4 mr-u-md-2 mr-u-lg-2 text-six">
+            <div class="outer-con ">
+                <div class="title ">
+                        荣耀12
+                </div>
+                <div class="sub-title ">
+                    ¥2099.00
+                </div>
+                <i class="mr-icon-shopping-basket mr-icon-md  seprate"></i>
+            </div>
+            <a href="shopInfo.html"><img src="images/huawei/428_428_1541571374644mp.png"/></a>
+        </div>
+        <div class="mr-u-sm-4 mr-u-md-2 mr-u-lg-4 text-six big">
+            <div class="outer-con ">
+                <div class="title ">
+                        荣耀13
+                </div>
+                <div class="sub-title ">
+                    ¥999.00
+                </div>
+                <i class="mr-icon-shopping-basket mr-icon-md  seprate"></i>
+            </div>
+            <a href="shopInfo.html"><img src="images/huawei/428_428_21A7667FA769CBD35B1B4977DF61F62E011DB64E3FDCA71Bmp.png"/></a>
+        </div>
+    </div>
+    <div class="clear "></div>
+</div>
+
+
+
+
+
+<div class="footer ">
+    <div class="footer-hd ">
+        <p>
+            <a href="#" target="_blank">17计信1</a>
+            <b>|</b>
+            <a href="index.html">商城首页</a>
+            <b>|</b>
+            <a href="#">王鸿发</a>
+            <b>|</b>
+            <a href="#">17240011</a>
+        </p>
+    </div>
+    <div class="footer-bd ">
+        <p>
+            <a href="#" target="_blank">17计信1</a>
+            <a href="#">合作伙伴</a>
+            <a href="#">王鸿发</a>
+            <a href="#">17240011</a>
+            <em>© 2016-2025 mingrisoft.com 版权所有</em>
+        </p>
+    </div>
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+<!--引导-->
+<div class="navCir">
+    <li class="active"><a href="index.html"><i class="mr-icon-home "></i>首页</a></li>
+    <li><a href="shopList.html"><i class="mr-icon-list"></i>商品</a></li>
+    <li><a href="shopcart.html"><i class="mr-icon-shopping-basket"></i>购物车</a></li>
+    <li><a href="login.html"><i class="mr-icon-user"></i>我的</a></li>
+</div>
+
+<!--菜单 -->
+<div class="tip">
+    <div id="sidebar">
+        <div id="wrap">
+            <div id="prof" class="item">
+                <a href="#"> <span class="setting"></span> </a>
+
+                <div class="ibar_login_box status_login show">
+                    <div class="avatar_box">
+                        <p class="avatar_imgbox"><img src="images/no-img_mid_.jpg"/></p>
+                        <ul class="user_info">
+                            <li>用户名：mingriSoft</li>
+                            <li>级&nbsp;别：金牌会员</li>
+                        </ul>
+                    </div>
+                    <div class="login_btnbox">
+                        <a href="#" class="login_order">我的订单</a>
+                        <a href="#" class="login_favorite">我的收藏</a>
+                    </div>
+                    <i class="icon_arrow_white"></i>
+                </div>
+            </div>
+            <div id="shopCart" class="item">
+                <a href="#"> <span class="message"></span> </a>
+
+                <p> 购物车 </p>
+
+                <p class="cart_num">0</p>
+            </div>
+            <div id="asset" class="item">
+                <a href="#"> <span class="view"></span> </a>
+
+                <div class="mp_tooltip show">
+                    我的资产
+                    <i class="icon_arrow_right_black"></i>
+                </div>
+            </div>
+            <div id="foot" class="item">
+                <a href="#"> <span class="zuji"></span> </a>
+
+                <div class="mp_tooltip show">
+                    我的足迹
+                    <i class="icon_arrow_right_black"></i>
+                </div>
+            </div>
+            <div id="brand" class="item">
+                <a href="#"> <span class="wdsc"><img src="images/wdsc.png"/></span> </a>
+
+                <div class="mp_tooltip show">
+                    我的收藏
+                    <i class="icon_arrow_right_black"></i>
+                </div>
+            </div>
+            <div id="broadcast" class="item">
+                <a href="#"> <span class="chongzhi"><img src="images/chongzhi.png"/></span> </a>
+
+                <div class="mp_tooltip show">
+                    我要充值
+                    <i class="icon_arrow_right_black"></i>
+                </div>
+            </div>
+            <div class="quick_toggle">
+                <li class="qtitem" id="kehu"><a href="#"><span class="kfzx"></span></a>
+
+                    <div class="mp_tooltip show">
+                        客服中心
+                        <i class="icon_arrow_right_black"></i>
+                    </div>
+                </li>
+                <!--二维码 -->
+                <li class="qtitem"><a href="#none"><span class="mpbtn_qrcode"></span></a>
+
+                    <div class="mp_qrcode" style="display:none;">
+                        <img src="../images/weixin_code_145.png"/>
+                        <i class="icon_arrow_white"></i>
+                    </div>
+                </li>
+                <li class="qtitem"><a href="#top" class="return_top"><span class="top"></span></a></li>
+            </div>
+            <!--回到顶部 -->
+            <div id="quick_links_pop" class="quick_links_pop hide"></div>
+        </div>
+    </div>
+    <div id="prof-content" class="nav-content">
+        <div class="nav-con-close">
+            <i class="mr-icon-angle-right mr-icon-fw"></i>
+        </div>
+        <div>
+            我
+        </div>
+    </div>
+    <div id="shopCart-content" class="nav-content">
+        <div class="nav-con-close">
+            <i class="mr-icon-angle-right mr-icon-fw"></i>
+        </div>
+        <div>
+            购物车
+        </div>
+    </div>
+    <div id="asset-content" class="nav-content">
+        <div class="nav-con-close">
+            <i class="mr-icon-angle-right mr-icon-fw"></i>
+        </div>
+        <div>
+            资产
+        </div>
+        <div class="ia-head-list">
+            <a href="#" target="_blank" class="pl">
+                <div class="num">
+                    0
+                </div>
+                <div class="text">
+                    优惠券
+                </div>
+            </a>
+            <a href="#" target="_blank" class="pl">
+                <div class="num">
+                    0
+                </div>
+                <div class="text">
+                    红包
+                </div>
+            </a>
+            <a href="#" target="_blank" class="pl money">
+                <div class="num">
+                    ￥0
+                </div>
+                <div class="text">
+                    余额
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="foot-content" class="nav-content">
+        <div class="nav-con-close">
+            <i class="mr-icon-angle-right mr-icon-fw"></i>
+        </div>
+        <div>
+            足迹
+        </div>
+    </div>
+    <div id="brand-content" class="nav-content">
+        <div class="nav-con-close">
+            <i class="mr-icon-angle-right mr-icon-fw"></i>
+        </div>
+        <div>
+            收藏
+        </div>
+    </div>
+    <div id="broadcast-content" class="nav-content">
+        <div class="nav-con-close">
+            <i class="mr-icon-angle-right mr-icon-fw"></i>
+        </div>
+        <div>
+            充值
+        </div>
+    </div>
+</div>
+
+</body>
+
+<script src="./js/jquery.min.js"></script>
+<script>
+ car_sum()
+    function car_sum() {
+        var goodsstore = sessionStorage.getItem('goodsstore');
+            goodsstore = JSON.parse(goodsstore)
+        var flag = 0;
+          // 购物车图标显示数量
+          for(var goods in goodsstore)
+          {flag = flag+1}
+          console.log($('.cart_num').html(flag))
+    }
+</script>
+<script>
+    //鼠标滑出事件
+    function mouseOver(obj){
+        obj.className="appliance js_toggle relative hover";     //设置当前事件对象样式
+        var menu=obj.childNodes;                                   //寻找该事件子节点（商品子类别）
+        menu[3].style.display='block';                            //设置子节点显示
+    }
+
+    //鼠标滑入事件
+    function mouseOut(obj){
+        obj.className="appliance js_toggle relative";           //设置当前事件对象样式
+        var menu=obj.childNodes;                                  //寻找该事件子节点（商品子类别）
+        menu[3].style.display='none';                            //设置子节点隐藏
+        }
+
+
+     function checkuser() {
+            // 确认用户是否登录
+            var user = sessionStorage.getItem('user');
+            if (user) {
+                user = JSON.parse(user)
+                console.log(user)
+                username = document.getElementsByClassName("s-name")[0];
+                username.innerHTML = user["email"]
+            }
+
+            
+    }
+
+</script>
+
+
+</html>

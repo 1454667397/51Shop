@@ -1,0 +1,89 @@
+@charset "utf-8";
+body {
+	background-image: url(../images/daso.jpg);
+
+}
+.content {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1230px;
+	border: 5px solid #161A33;
+}
+nav {
+	background-image: url(../images/fdsa.jpg);
+	color: #6F9;
+	text-align: right;
+	height: 30px;
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #161A33;
+	border-bottom-width: 5px;
+	border-bottom-color: #161A33;
+	padding-top: 5px;
+}
+span {
+	margin-left: 40px;
+	border-left-width: 3px;
+	border-left-style: solid;
+	border-left-color: #161A33;
+	padding-left: 20px;
+	padding-right: 10px;
+	font-family: "华文行楷";
+	font-size: 24px;
+}
+.location {
+	float: left;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	color: #FF0;
+}
+footer {
+	background-color: #E9C99A;
+	text-align: center;
+}
+section {
+	width: 1230px;
+	background-image: url(../images/bg_index.jpg);
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+
+.main {
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #161A33;
+	background-image: url(../images/bg2313.jpg);
+	font-family: "隶书";
+	font-size: 24px;
+}
+a {
+	text-decoration: none;
+	color: #FF0;
+}
+iframe {
+	width: 1200px;
+	height: 600px;
+}
+a:hover{
+	font-weight:600;
+	color:#000
+}
+.mail {
+	color: #000;
+	text-decoration: none;
+}
+h1 {
+	font-family: "微软雅黑";
+	text-align: center;
+}
+.bg_shenzhen {
+	background-color: #10ADD8;
+	background-image: url(../images/bg123.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}

@@ -1,0 +1,84 @@
+@charset "utf-8";
+body {
+	background-image: url(../images/daso.jpg);
+
+}
+.content {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1230px;
+	border: 5px solid #161A33;
+}
+nav {
+	background-image: url(../images/fdsa.jpg);
+	text-align: right;
+	height: 30px;
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #161A33;
+	border-bottom-width: 5px;
+	border-bottom-color: #161A33;
+	padding-top: 5px;
+}
+span {
+	margin-left: 40px;
+	border-left-width: 3px;
+	border-left-style: solid;
+	border-left-color: #161A33;
+	padding-left: 20px;
+	padding-right: 10px;
+	font-family: "华文行楷";
+	font-size: 24px;
+}
+.location {
+	float: left;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	color: #FF0;
+}
+footer {
+	background-color: #E9C99A;
+	text-align: center;
+}
+section {
+	background-image: url(../images/dad.jpg);
+	width: 1230px;
+	text-align: center;
+	font-family: "隶书";
+	color: #F00;
+	height: 830px;
+	padding-top: 30px;
+}
+.tag1 {
+	position: absolute;
+	left: 630px;
+	top: 600px;
+}
+.tag2 {
+	position: absolute;
+	left: 400px;
+	top: 750px;
+}
+.tit {
+	font-family: "隶书";
+	font-size: 70px;
+	color: #063;
+	font-weight: bold;
+	padding: 0px;
+	border-left-style: none;
+}
+a {
+	text-decoration: none;
+	color: #FFFF00;
+}
+a:hover{
+	font-weight:600;
+	color:#000
+}
+.mail {
+	color: #000;
+	text-decoration: none;
+}

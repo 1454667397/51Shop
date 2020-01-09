@@ -1,0 +1,6 @@
+将数据保存至json文件
+读取json文件渲染到页面中
+
+用户操作产生的数据保存到webstorage中
+
+需要变化的数据从webstorage中获取

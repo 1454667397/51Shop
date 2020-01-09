@@ -1,0 +1,883 @@
+train({
+    "status": "success",
+    "data": [
+    {
+    "price": "3299",
+    "name": "【100元订金】荣耀V30",
+    "img": "./images/huawei/0.png",
+    "cansu": {
+    "neicun": [
+    "6GB+64GB 全网通",
+    "6GB+128GB 全网通"
+    ],
+    "color": [
+    "幻夜黑",
+    "翡冷翠",
+    "苏音蓝"
+    ]
+    },
+    "kucun": "10000",
+    "xiaoliang": "980"
+    },
+    {
+    "price": "3899",
+    "name": "【100元订金】荣耀V30 PRO",
+    "img": "./images/huawei/1.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通",
+        "8GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "1499",
+    "name": "HUAWEI nova 5z",
+    "img": "./images/huawei/2.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "4GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "1599",
+    "name": "【老用户专享】华为畅享 10S",
+    "img": "./images/huawei/3.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "12999",
+    "name": "HUAWEI Mate 30 RS 保时捷设计",
+    "img": "./images/huawei/4.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通",
+        "8GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "1199",
+    "name": "华为畅享10",
+    "img": "./images/huawei/5.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "4GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "6899",
+    "name": "HUAWEI Mate 30 Pro 5G",
+    "img": "./images/huawei/6.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通",
+        "8GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "4999",
+    "name": "HUAWEI Mate 30 5G",
+    "img": "./images/huawei/7.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通",
+        "8GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "2699",
+    "name": "HUAWEI nova 5 Pro",
+    "img": "./images/huawei/8.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "16999",
+    "name": "HUAWEI Mate X",
+    "img": "./images/huawei/9.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通",
+        "8GB+128GB 全网通",
+        "8GB+256GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "1099",
+    "name": "荣耀20青春版",
+    "img": "./images/huawei/10.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "4GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "5799",
+    "name": "HUAWEI Mate 30 Pro",
+    "img": "./images/huawei/11.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通",
+        "8GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "4299",
+    "name": "HUAWEI Mate 30",
+    "img": "./images/huawei/12.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "699",
+    "name": "荣耀Play3e",
+    "img": "./images/huawei/13.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "4GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "1499",
+    "name": "华为畅享 10Plus",
+    "img": "./images/huawei/14.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "4GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "899",
+    "name": "荣耀Play3",
+    "img": "./images/huawei/15.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "4GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "1599",
+    "name": "荣耀20S",
+    "img": "./images/huawei/16.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "4GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "1999",
+    "name": "HUAWEI nova 5i Pro",
+    "img": "./images/huawei/17.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "1299",
+    "name": "荣耀9X",
+    "img": "./images/huawei/18.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "6199",
+    "name": "HUAWEI Mate 20 X 5G版",
+    "img": "./images/huawei/19.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "1799",
+    "name": "荣耀9X PRO",
+    "img": "./images/huawei/20.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "599",
+    "name": "荣耀畅玩8",
+    "img": "./images/huawei/21.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "1799",
+    "name": "HUAWEI nova 5i",
+    "img": "./images/huawei/22.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "2599",
+    "name": "HUAWEI nova 5",
+    "img": "./images/huawei/23.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "1599",
+    "name": "华为麦芒8",
+    "img": "./images/huawei/24.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "2699",
+    "name": "荣耀20 PRO",
+    "img": "./images/huawei/25.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "2099",
+    "name": "荣耀20",
+    "img": "./images/huawei/26.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "899",
+    "name": "荣耀8X",
+    "img": "./images/huawei/27.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "1699",
+    "name": "荣耀V20",
+    "img": "./images/huawei/28.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "1199",
+    "name": "荣耀20i",
+    "img": "./images/huawei/29.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "5099",
+    "name": "HUAWEI Mate 20 Pro",
+    "img": "./images/huawei/30.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "3699",
+    "name": "HUAWEI Mate 20",
+    "img": "./images/huawei/31.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "1799",
+    "name": "HUAWEI nova 4e",
+    "img": "./images/huawei/32.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "2699",
+    "name": "HUAWEI nova 4",
+    "img": "./images/huawei/33.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "1499",
+    "name": "华为畅享 9S",
+    "img": "./images/huawei/34.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "12999",
+    "name": "HUAWEI Mate 20 RS 保时捷设计",
+    "img": "./images/huawei/35.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "799",
+    "name": "华为畅享 9e",
+    "img": "./images/huawei/36.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "3688",
+    "name": "HUAWEI P30",
+    "img": "./images/huawei/37.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "4488",
+    "name": "HUAWEI P30 Pro",
+    "img": "./images/huawei/38.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "999",
+    "name": "荣耀畅玩8A",
+    "img": "./images/huawei/39.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "999",
+    "name": "华为畅享9",
+    "img": "./images/huawei/40.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "899",
+    "name": "荣耀10青春版",
+    "img": "./images/huawei/41.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "1999",
+    "name": "荣耀Magic2",
+    "img": "./images/huawei/42.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "1799",
+    "name": "华为畅享9 Plus",
+    "img": "./images/huawei/43.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "1099",
+    "name": "荣耀8X Max",
+    "img": "./images/huawei/44.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "1599",
+    "name": "荣耀 Note10",
+    "img": "./images/huawei/45.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "599",
+    "name": "荣耀畅玩7 移动4G+",
+    "img": "./images/huawei/46.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    },
+    {
+    "price": "599",
+    "name": "荣耀畅玩7",
+    "img": "./images/huawei/47.png",
+    "cansu": {
+        "neicun": [
+        "6GB+64GB 全网通",
+        "6GB+128GB 全网通"
+        ],
+        "color": [
+        "幻夜黑",
+        "翡冷翠",
+        "苏音蓝"
+        ]
+        },
+        "kucun": "10000",
+        "xiaoliang": "980"
+    }
+    ]
+    })
